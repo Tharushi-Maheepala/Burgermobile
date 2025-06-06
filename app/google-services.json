@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "951376036677",
+    "project_id": "burgerrestaurantapp",
+    "storage_bucket": "burgerrestaurantapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951376036677:android:b3f73246c89c05f2f2742c",
+        "android_client_info": {
+          "package_name": "com.example.finalburgerrestaurant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmpsJmoNwQEnWkDHN_REOcqimYm5a_Qck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

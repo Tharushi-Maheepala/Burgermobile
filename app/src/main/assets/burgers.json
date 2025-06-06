@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Cheeseburger",
+    "description": "Beef patty, cheese, lettuce, tomato, onion, pickles.",
+    "price": 5.99,
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "BBQ Bacon Burger",
+    "description": "Beef patty, BBQ sauce, bacon, crispy onions.",
+    "price": 6.49,
+    "image": "https://via.placeholder.com/150"
+  }
+]
