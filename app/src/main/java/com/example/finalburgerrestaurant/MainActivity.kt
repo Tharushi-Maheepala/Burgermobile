@@ -13,8 +13,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.finalburgerrestaurant.ui.theme.FinalburgerrestaurantTheme
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Box
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.getValue
+import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.finalburgerrestaurant.ui.theme.FinalburgerrestaurantTheme
 
@@ -34,13 +37,20 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BurgerApp() {
     val navController = rememberNavController()
+    val backStackEntry by navController.currentBackStackEntryAsState()
+    val currentRoute = backStackEntry?.destination?.route
+
+    // Hide bottom bar for splash, login, and signup screens
+    val hideBottomBar = currentRoute in listOf("splash", "login", "signup")
 
     Scaffold(
-        bottomBar = { BottomNavBar(navController = navController) },
-        content = { paddingValues ->   // <-- Here’s paddingValues
-            androidx.compose.foundation.layout.Box(
-                modifier = Modifier.padding(paddingValues) // Apply the padding here!
-            ) {
+        bottomBar = {
+            if (!hideBottomBar) {
+                BottomNavBar(navController = navController)
+            }
+        },
+        content = { paddingValues ->
+            Box(modifier = Modifier.padding(paddingValues)) {
                 AppNavigation(navController = navController)
             }
         }

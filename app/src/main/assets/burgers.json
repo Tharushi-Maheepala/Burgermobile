@@ -4,13 +4,121 @@
     "name": "Classic Cheeseburger",
     "description": "Beef patty, cheese, lettuce, tomato, onion, pickles.",
     "price": 5.99,
-    "image": "https://via.placeholder.com/150"
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "burger"
   },
   {
     "id": 2,
     "name": "BBQ Bacon Burger",
     "description": "Beef patty, BBQ sauce, bacon, crispy onions.",
     "price": 6.49,
-    "image": "https://via.placeholder.com/150"
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "burger"
+  },
+  {
+    "id": 3,
+    "name": "Double Beef Burger",
+    "description": "Double beef patties, cheese, onions, secret sauce.",
+    "price": 7.99,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "burger"
+  },
+  {
+    "id": 4,
+    "name": "Spicy Chicken Burger",
+    "description": "Fried spicy chicken, lettuce, spicy mayo.",
+    "price": 6.29,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "burger"
+  },
+  {
+    "id": 5,
+    "name": "Veggie Burger",
+    "description": "Grilled veggie patty, lettuce, tomato, avocado.",
+    "price": 5.49,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "burger"
+  },
+
+  {
+    "id": 6,
+    "name": "Coca-Cola",
+    "description": "Chilled soft drink, 330ml can.",
+    "price": 1.99,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "beverage"
+  },
+  {
+    "id": 7,
+    "name": "Iced Lemon Tea",
+    "description": "Sweet lemon iced tea with ice cubes.",
+    "price": 2.49,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "beverage"
+  },
+  {
+    "id": 8,
+    "name": "Orange Juice",
+    "description": "Freshly squeezed orange juice.",
+    "price": 2.99,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "beverage"
+  },
+  {
+    "id": 9,
+    "name": "Milkshake",
+    "description": "Thick vanilla milkshake with whipped cream.",
+    "price": 3.49,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "beverage"
+  },
+  {
+    "id": 10,
+    "name": "Cold Brew Coffee",
+    "description": "Smooth cold brew served over ice.",
+    "price": 3.99,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "beverage"
+  },
+
+  {
+    "id": 11,
+    "name": "Chocolate Cake",
+    "description": "Rich chocolate layered cake slice.",
+    "price": 4.99,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "dessert"
+  },
+  {
+    "id": 12,
+    "name": "Vanilla Ice Cream",
+    "description": "Classic vanilla ice cream scoop.",
+    "price": 2.49,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "dessert"
+  },
+  {
+    "id": 13,
+    "name": "Strawberry Cheesecake",
+    "description": "Creamy cheesecake with fresh strawberry topping.",
+    "price": 4.49,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "dessert"
+  },
+  {
+    "id": 14,
+    "name": "Churros",
+    "description": "Crispy churros with chocolate dip.",
+    "price": 3.29,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "dessert"
+  },
+  {
+    "id": 15,
+    "name": "Brownie",
+    "description": "Warm chocolate brownie with nuts.",
+    "price": 3.99,
+    "image": "file:///android_asset/images/burger1.jpg",
+    "category": "dessert"
   }
 ]

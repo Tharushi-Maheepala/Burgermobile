@@ -56,6 +56,9 @@ dependencies {
     implementation(libs.androidx.navigation.runtime.android)
     implementation(libs.androidx.navigation.compose.android)
     implementation("io.coil-kt:coil-compose:2.5.0")
+    //implementation("io.coil-kt:coil-compose:2.5.0")
+
+
 
     // Firebase
     implementation(libs.firebase.auth)
@@ -71,6 +74,9 @@ dependencies {
     implementation(libs.androidx.foundation.layout.android)
     implementation(libs.androidx.foundation.layout.android)
     implementation(libs.androidx.foundation.layout.android)
+    implementation(libs.androidx.foundation.android)
+    implementation("androidx.compose.foundation:foundation:1.5.0")
+
 
     // Testing
     testImplementation(libs.junit)

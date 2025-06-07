@@ -10,14 +10,14 @@ import com.example.finalburgerrestaurant.ui.MenuScreen
 fun AppNavigation(navController: NavHostController) {
     NavHost(
         navController = navController,
-        startDestination = "signup"  // or "splash" if you want to start with splash screen
+        startDestination = "splash"  // or "splash" if you want to start with splash screen
     ) {
         composable("home") { HomeScreen() }
         composable("menu") { MenuScreen() }
         composable("cart") { CartScreen() }
         composable("profile") { ProfileScreen(navController) }
 
-        composable("splash") { SplashScreen() }
+        composable("splash") { SplashScreen(navController) }
 
         // ✅ Fix: Pass navController to these screens
         composable("login") { LoginScreen(navController) }
